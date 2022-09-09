@@ -1,0 +1,37 @@
+.separator-ribbon{
+    width: 100%;
+    height: 100px;
+    margin-left: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.card-border{
+    border: solid 2px black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0,2s ;
+}
+
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+
+.buttons-redes{
+    min-width: 800px;
+    display: flex;
+    
+}
+
+.buttons-redes a{
+    text-decoration: none;
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: beige;
+    
+
+}
